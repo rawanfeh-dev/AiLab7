@@ -1,0 +1,69 @@
+%lab 7.1 queries 
+101 ?- consult(['/Users/rwanotp/Desktop/AiLab7.1.pl']).
+true.
+
+102 ?- menu.
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: d.
+coffee
+milk
+chocolate
+apple
+juice
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: |: a.
+
+enter the item you want to add it (with a dot at the end): |: coffee.
+The item has been added
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: |: a.
+
+enter the item you want to add it (with a dot at the end): |: milk.
+The item has been added
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: |: a.
+
+enter the item you want to add it (with a dot at the end): |: orange.
+The item has been added
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: |: d.
+coffee
+milk
+chocolate
+apple
+juice
+coffee
+menu
+milk
+orange
+
+SHOPPING LIST
+d. display all items.
+a. Add an item to the list.
+e. exit.
+ENTER YOUR CHOICE: |: e.
+
+===< End >===
+true .
+
+103 ?- 
